@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Simon Tudge - Home</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!--Sets all links to open in a new tab-->
+  <base target="_blank">
+
+  <style type="text/css">
+    .badge-link{
+      color: black;
+    }
+    .button-link{
+      color: white;
+    }
+    .more-button{
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+    #about{
+      text-align: justify;
+    }
+  </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <div class="navbar navbar-inverse" >
+    
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-info" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="" class="navbar-brand" target="_self">Simon Tudge</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id = "header-info">
+        <div id="page-navigation">
+          <ul class="nav navbar-nav">
+            <li><a href="#div1" target="_self">About</a></li>
+            <li><a href="#div2" target="_self">Publications</a></li>
+            <li><a href="#div3" target="_self">Projects</a></li>  
+          </ul>          
+        </div>
+
+      <!--Dropdown menu for important links-->
+      <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Links <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://github.com/simontudge">Github Page</a></li>
+              <li><a href="https://cmg.soton.ac.uk/people/sjt4g11/">CMG Page</a></li>
+              <li><a href="http://www.flowminder.org/people/simon-tudge">Flowminder Profile</a></li>
+              <li><a href="https://uk.linkedin.com/in/simon-tudge-b950b2100">Linkedin</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div> <!-- end of collapsable content -->
+
+    </div> <!--End of containter-->
+
+  </div>  <!--End of navbar-->
+
+  <div class = "container">
+    <div id="div1" class="main-div">
+      <h2>About</h2>
+      <div class="row">
+        <div class = "col-md-4">
+          <p id = "about">I'm a PhD candidate at the University of Southampton, in the <a href="http://www.icss.soton.ac.uk/">ICSS</a>. My main accademic interests are in computer modelling, evolutionary biology and social systems. I also work as a consultant data scientist and programmer for the <a href="http://www.flowminder.org/">Flowminder foundation</a>. My main programming expertise lie in Python and C++. I also have some experience in Java, SQL and web design.</p>
+        </div>
+        <div class="col-md-6 col-md-offset-2">
+          <img src="images/profile.JPG" class="image-responsive" height="250px">
+        </div>
+      </div>
+
+    </div>
+    <div id="div2" class="main-div">
+
+      <h2>Publications</h2>
+      
+      <div class="row">
+        
+        <div class="col-md-4">
+          <div class="panel panel-default">
+
+            <div class="panel-heading">
+              First Authored Papers
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group hover">
+              <li class="list-group-item">
+                Cooperation and the Division of Labour             
+                <button class="btn btn-primary btn-xs more-button" data-toggle="modal" data-target="#ecal-DOL"> More </button>
+              </li>
+              <li class="list-group-item">
+                The Evolution of Assortment Under Multiple-Simultaneuos Games
+                <button class="btn btn-primary btn-xs more-button" data-toggle="modal" data-target="#ecal-multi"> More </button>
+                </li>
+              <li class="list-group-item">A Tale of Two Theorems
+              <button class="btn btn-primary btn-xs more-button" data-toggle="modal" data-target="#two-theorems"> More </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel panel-default">
+
+            <div class="panel-heading">
+              Co-Authored
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">
+                Replication strategies and the evolution of cooperation by exploitation
+                <button class="btn btn-primary btn-xs more-button" data-toggle="modal" data-target="#markus-ecal"> More </button>
+              </li>
+              <li class="list-group-item">
+              Evolutionary connectionism 
+              <button class="btn btn-primary btn-xs more-button" data-toggle="modal" data-target="#richards-review"> More </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel panel-default">
+
+            <div class="panel-heading">
+              Unpublished
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item"> A Primer on Evolutionary Game Theory
+              <span class="badge"> <a class = "badge-link" href="pdfs/EGT_primer.pdf">pdf</a></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="div3" class="main-div">
+
+      <h2>Projects</h2>
+      
+      <div class="row">
+        
+        <div class="col-md-4">
+          <h2>Sweepy</h2>
+          <p>A python module for scientfic computing. Performs automatic parameter sweeping of model ad well as storing and visulising the results for you.</p>
+          <p><a class="btn btn-default" href="https://github.com/simontudge/sweepy" role="button">Github Page &raquo;</a></p>
+          
+        </div>
+
+        <div class="col-md-4 col-md-offset-1">
+          <h2>Replicator</h2>
+          <p>A Python Module for the investigating the evolutionary dynamics of game theory.</p>
+          <p><a class="btn btn-default" href="https://github.com/simontudge/replicator" role="button">Github Page &raquo;</a></p>
+        </div>
+
+      </div>
+    </div>
+
+    <br/>
+
+    </div>  <!--End of container-->
+
+    <!--Modals that serve as futher description of the papers-->
+
+    <!--ECAL dol paper-->
+    <div class="modal" id="ecal-DOL">
+      <div class="modal-dialog">
+        <div class="modal-content">
+         
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">x</button>
+            <h4 class="modal-title">
+              Cooperation and the Division of Labour
+              <br/>
+              <small>
+                ECAL 2013
+                Simon J Tudge, Richard Watson and Markus Brede
+              </small>
+            </h4>
+          </div>
+          <div class="modal-body">
+          <p>
+            Cooperation is vital for maintaining the integrity of complex life forms. In many cases in nature cooperation manifests itself through constituent parts performing different, but complementary, functions. The vast majority of studies on the evolution of cooperation, however, look only at the special case in which cooperation manifests itself via the constituent parts performing identical tasks. In this paper we investigate a class of games in which the socially optimal behaviour has the property of being heterogeneous. We show that this class of games is equivalent to a region of ST space (the space of normalised two-player games characterised by the 'sucker' and 'temptation' payoffs) which has previously been dismissed. We analyse, through a simple group selection model, properties that evolving agents would need to have in order to "solve" this dilemma. Specifically we find that positive assortment on pure strategies may lower mean individual payoff, and that assortment on mixed strategies will increase payoff, but not maximise it.
+          </p>
+          </div>
+          <div class="modal-footer">
+            <a target="_blank" href="http://mitpress.mit.edu/sites/default/files/titles/content/ecal13/ch001.html">Full Paper</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!--ECAL multi-games paper-->
+    <div class="modal" id="ecal-multi">
+      <div class="modal-dialog">
+        <div class="modal-content">
+         
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">x</button>
+            <h4 class="modal-title">
+              The Evolution of Assortment with Multiple Simultaneous Games
+              <br/>
+              <small>
+                ECAL 2015
+                Simon J Tudge, Adam Jackson, Richard A. Watson and Markus Brede
+              </small>
+            </h4>
+          </div>
+          <div class="modal-body">
+          <p>
+            Current theories of social evolution predict the direction of selection for a given level of assortment. What remains unclear is how to determine the direction of selection on assortment itself if this were subject to evolutionary change. Here we define and analyse a simple model that allows us to investigate the evolution of assortment. We find that there is only a positive selection gradient for increased assortment if the population is polymorphic in the cooperative trait. We further show that if the individuals in question engage in multiple cooperative dilemmas simultaneously then there may be a continued selection on increased assortment which is ultimately sufficient to resolve severe dilemmas such as the prisoner's dilemma.
+          </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--two theorems paper-->
+    <div class="modal" id="two-theorems">
+      <div class="modal-dialog">
+        <div class="modal-content">
+         
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">x</button>
+            <h4 class="modal-title">
+              A tale of two theorems: Comment on “Universal scaling for the dilemma strength in evolutionary games” by Z. Wang et al.
+              <br/>
+              <small>
+                Physics of Life Reviews
+                Simon J Tudge, Richard Watson and Markus Brede
+              </small>
+            </h4>
+          </div>
+          <div class="modal-body">
+          <p>
+            Wang et. al. give an extensive review on evolutionary game theory, with a particular focus on the evolution of cooperation; an area that is of central importance to understanding many disparate biological topics. One of the key focuses of the paper is that there are potentially two differing ways of defining two-by-two games so that they can be parameterised with only two variables. This is a highly worthwhile endeavour in that it allows one to systematically investigate and categorise all such games with much greater ease. Perhaps the key result of the paper is that the authors argue that one such parameterisation is far superior to the other, as it retains predictive power even with the additional assumption of a number of reciprocity mechanisms, such as network reciprocity. We wish to draw attention to the fact that these two parameterisations can be understood as the application of two invariance theorems in evolutionary game theory. Furthermore, we complement the authors’ extensive simulations with a mathematical argument that might help explain their result in a more transparent way. We will show that one of these invariance theorems generalises to the case of an assorted population and the other does not. It may be argued that many, if not all, of the particular mechanisms of reciprocity crucially rely on the positive assortment of cooperative behaviours; if one accepts this then our result acts as an argument towards why only one game parameterisation will be sufficient for models of reciprocity.
+          </p>
+          </div>
+          <div class="modal-footer">
+            <a href="http://www.sciencedirect.com/science/article/pii/S1571064515001347">Full Paper</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!--Markus' Ecal Paper-->
+    <div class="modal" id="markus-ecal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+         
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">x</button>
+            <h4 class="modal-title">
+              Replication strategies and the evolution of cooperation by exploitation
+              <br/>
+              <small>
+                Physics of Life Reviews
+                Markus Brede and Simon J. Tudge
+              </small>
+            </h4>
+          </div>
+          <div class="modal-body">
+          <p>
+            Introducing the concept of replication strategies this paper studies the evolution of cooperation in populations of agents whose offspring follow a social strategy that is determined by a parent's replication strategy. Importantly, social and replication strategies may differ, thus allowing parents to construct their own social niche, defined by the behaviour of their offspring. We analyse the co-evolution of social and replication strategies in well-mixed and spatial populations. In well-mixed populations, cooperation-supporting equilibria can only exist if the transmission processes of social strategies and replication strategies are completely separate. In space, cooperation can evolve without complete separation of the timescales at which both strategy traits are propagated. Cooperation then evolves through the presence of offspring exploiting defectors whose presence and spatial arrangement can shield clusters of pure cooperators.
+          </p>
+          </div>
+          <div class="modal-footer">
+            <a href="http://www.sciencedirect.com/science/article/pii/S1571064515001347">Full Paper</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!--Richards Review Paper-->
+    <div class="modal" id="richards-review">
+      <div class="modal-dialog">
+        <div class="modal-content">
+         
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">x</button>
+            <h4 class="modal-title">
+              Evolutionary connectionism: algorithmic principles underlying the evolution of biological organisation in dvo-devo, evo-eco and evolutionary transitions 
+              <br/>
+              <small>
+                Accepted Evolutionary Biology, 1-31. (Submitted)
+                Watson, Richard, Mills, Rob, Buckley, C.L., Kouvaris, Konstantinos, Jackson, Adam, Powers, Simon T. , Cox, Chris, Tudge, Simon, Davies, Adam, Kounios, Loizos and Power, Daniel
+              </small>
+            </h4>
+          </div>
+          <div class="modal-body">
+          <p>
+            The mechanisms of variation, selection and inheritance, on which evolution by natural selection depends, are not fixed over evolutionary time. Current evolutionary biology is increasingly focussed on understanding how the evolution of developmental organisations modifies the distribution of phenotypic variation, the evolution of ecological relationships modifies the selective environment, and the evolution of reproductive relationships modifies the heritability of the evolutionary unit. The major transitions in evolution, in particular, involve radical changes in developmental, ecological and reproductive organisations that instantiate variation, selection and inheritance at a higher level of biological organisation. However, current evolutionary theory is poorly equipped to describe how these organisations change over evolutionary time and especially how that results in adaptive complexes at successive scales of organisation (the key problem is that evolution is self-referential, i.e. the products of evolution change the parameters of the evolutionary process). Here we first reinterpret the central open questions in these domains from a perspective that emphasises the common underlying themes. We then synthesise the findings from a developing body of work that is building a new theoretical approach to these questions by converting well-understood theory and results from models of cognitive learning. Specifically, connectionist models of memory and learning demonstrate how simple incremental mechanisms, adjusting the relationships between individually-simple components, can produce organisations that exhibit complex system-level behaviours and improve the adaptive capabilities of the system. We use the term “evolutionary connectionism” to recognise that, by functionally equivalent processes, natural selection acting on the relationships within and between evolutionary entities can result in organisations that produce complex system-level behaviours in evolutionary systems and modify the adaptive capabilities of natural selection over time. We review the evidence supporting the functional equivalences between the domains of learning and of evolution, and discuss the potential for this to resolve conceptual problems in our understanding of the evolution of developmental, ecological and reproductive organisations and, in particular, the major evolutionary transitions.
+          </p>
+          </div>
+          <div class="modal-footer">
+            <a href="http://eprints.soton.ac.uk/383509/">Full Paper</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
